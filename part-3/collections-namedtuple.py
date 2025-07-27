@@ -5,3 +5,8 @@ from collections import namedtuple
 Point = namedtuple('Point' ,'x,y')  # so this will create a class called Point with two string attributes x and y
 
 
+pt = Point(10 , 20 )
+print(pt)
+#printing the attributes 
+print(pt.x)
+print(pt.y)
