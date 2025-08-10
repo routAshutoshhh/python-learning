@@ -20,3 +20,5 @@ print(normalFunction(12))
 
 print(normalFunction.__name__)# for normal function to be working recognnized propperly which is  will not work without functools which will wrap the function and preserve the metadata
 print(decoratorFunction.__name__)
+
+
